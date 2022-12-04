@@ -5,7 +5,7 @@
       {
         "targets": {
           "edge": "17",
-          "firefox": "60",
+          "firefox": "68",
           "chrome": "67",
           "safari": "11.1"
         },

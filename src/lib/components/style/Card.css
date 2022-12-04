@@ -1,0 +1,32 @@
+.container {
+  display: grid;
+  grid-gap: 25px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.cardContainer {
+}
+
+.cardImage {
+  border-radius: 10px;
+  object-fit: cover;
+  height: 283px !important;
+  width: 100% !important;
+}
+
+.cardTitle {
+  font-size: 15px;
+  font-weight: 600;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 10px;
+}
+
+.cardDescription {
+  color: #717171;
+  font-size: 15px;
+  font-weight: 400;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 5px;
+}
