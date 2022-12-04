@@ -1,7 +1,7 @@
 {
   "name": "hi-card",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "description": "A beautiful card for your website's listings/products",
   "author": "Dawood Khan Masood",
   "main": "dist/index.js",
@@ -12,7 +12,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DawoodKMasood/hi-card.git"
+    "url": "git+https://github.com/DawoodKMasood/hicard.git"
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
