@@ -13,15 +13,21 @@ const Card = (props) => {
         <div className="container">
             {data.map((item) => (
                 <div className="cardContainer" key={item.id}>
-                    <picture>
-                        <img className="cardImage" src={item.image} alt={item.title} />
-                    </picture>
-                    <h1 className="cardTitle line-clamp-1">
-                        {item.title}
-                    </h1>
-                    <p className="cardDescription line-clamp-2">
-                        {item.description}
-                    </p>
+                    <a href={item.link}>
+                        <picture>
+                            <img className="cardImage" src={item.image} alt={item.title} />
+                        </picture>
+                    </a>
+                    <div className="cardContent">
+                        <div>
+                            <h1 className="cardTitle line-clamp-1">
+                                {item.title}
+                            </h1>
+                            <p className="cardDescription line-clamp-2">
+                                {item.description}
+                            </p>
+                        </div>
+                    </div>
                 </div>
             ))}
         </div>
